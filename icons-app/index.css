@@ -1,0 +1,65 @@
+.main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d4e78f;
+}
+
+i {
+    font-size: 50px;
+}
+
+.div {
+    padding: 15px;
+    border: 2px solid pink;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.instagram {
+    border: 2px solid #d30d6d;
+}
+
+.facebook {
+    border: 2px solid #0f51c2;
+}
+
+.twitter {
+    border: 2px solid #000;
+}
+
+.youtube {
+    border: 2px solid #c70f0f;
+}
+
+i:hover {
+    animation: rotate 0.6s linear infinite;
+}
+
+.instagram:hover {
+    box-shadow: 0 0 15px #d30d6d inset, 0 0 15px #d30d6d;
+}
+
+.facebook:hover {
+    box-shadow: 0 0 15px #0f51c2 inset, 0 0 15px #0f51c2;
+}
+
+.twitter:hover {
+    box-shadow: 0 0 15px #000 inset, 0 0 15px #000;
+}
+
+.youtube:hover {
+    box-shadow: 0 0 15px #c70f0f inset, 0 0 15px #c70f0f;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
